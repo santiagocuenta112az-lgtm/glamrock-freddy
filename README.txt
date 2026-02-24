@@ -1,0 +1,1 @@
+Some of the files in my project are not my own work; external models will be cited in their respective folders. Please remember to support them, as this project is possible thanks to their contributions. My own models are located in the "mis mecanismos" folder.

@@ -1,0 +1,3520 @@
+﻿{
+  "$id": "1",
+  "$type": "ProjectHolder, Assembly-CSharp",
+  "saveVersion": "14",
+  "bottangoVersion": "0.7.1p7a",
+  "importedModels": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.List`1[[CustomModelMedia, Assembly-CSharp]], mscorlib",
+    "$values": []
+  },
+  "parts": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$id": "4",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "5",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "6",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "7",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 4,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "8",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": 0.49999997,
+            "x": 0.49999997,
+            "y": 0.49999997,
+            "z": -0.49999997,
+            "eulerAngles": {
+              "x": 90.0,
+              "y": 90.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.4480605,
+            "y": 5.72921276,
+            "z": 0.632967532
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 0,
+        "children": {
+          "$id": "9",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "10",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "11",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "12",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "13",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 3,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "14",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": 0.49999997,
+            "x": 0.49999997,
+            "y": 0.49999997,
+            "z": -0.49999997,
+            "eulerAngles": {
+              "x": 90.0,
+              "y": 90.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.447817117,
+            "y": 5.72921276,
+            "z": 0.236206114
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 1,
+        "children": {
+          "$id": "15",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "16",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "17",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "18",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "19",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 2,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "20",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": -0.49999997,
+            "x": -0.49999997,
+            "y": 0.49999997,
+            "z": -0.49999997,
+            "eulerAngles": {
+              "x": 90.0,
+              "y": 270.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": -0.3237242,
+            "y": 5.72921276,
+            "z": 0.6155128
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 2,
+        "children": {
+          "$id": "21",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "22",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "23",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "24",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "25",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 1,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": true,
+          "postProcessorsAsLeader": {
+            "$id": "26",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": -0.49999997,
+            "x": -0.49999997,
+            "y": 0.49999997,
+            "z": -0.49999997,
+            "eulerAngles": {
+              "x": 90.0,
+              "y": 270.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": -0.323756665,
+            "y": 5.72921276,
+            "z": 0.2504012
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 3,
+        "children": {
+          "$id": "27",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "28",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "29",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "30",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "31",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 0,
+            "MinPwm": 1011,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "32",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": -4.371139E-08,
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0,
+            "eulerAngles": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.0742149353,
+            "y": 5.829212,
+            "z": -0.120353289
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 4,
+        "children": {
+          "$id": "33",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "34",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "35",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "36",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "37",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 5,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "38",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": -0.49999997,
+            "x": -0.49999997,
+            "y": 0.49999997,
+            "z": -0.49999997,
+            "eulerAngles": {
+              "x": 90.0,
+              "y": 270.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": -0.04351133,
+            "y": 5.725275,
+            "z": 0.420991451
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 5,
+        "children": {
+          "$id": "39",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "40",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "41",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "42",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "43",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 6,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 130.0,
+          "hornOffset": 70.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "44",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 130.0,
+          "HomeLocalRotation": {
+            "w": 0.493409485,
+            "x": 0.5065047,
+            "y": -0.506504655,
+            "z": 0.493409663,
+            "eulerAngles": {
+              "x": 88.49937,
+              "y": 179.999481,
+              "z": 269.999481
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.190263391,
+            "y": 5.42833328,
+            "z": 0.13803117
+          },
+          "Name": "mandibula",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 6,
+        "children": {
+          "$id": "45",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "46",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "47",
+          "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+          "jointLinks": {
+            "$id": "48",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "49",
+            "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+            "I2CAddress": 64,
+            "Pin": 9,
+            "MinPwm": 1000,
+            "MaxPwm": 2000,
+            "MaxSpeed": 3000
+          },
+          "hornRange": 180.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": false,
+          "postProcessorsAsLeader": {
+            "$id": "50",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomePWM": 1500,
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 180.0,
+          "HomeLocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "eulerAngles": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.04941787,
+            "y": 4.868332,
+            "z": 0.3702197
+          },
+          "Name": "Servo Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 7,
+        "children": {
+          "$id": "51",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "52",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "53",
+          "$type": "ArticulationJoint, Assembly-CSharp",
+          "axis": "RotY",
+          "motorLink": {
+            "$id": "54",
+            "$type": "TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp",
+            "articulationJoint": {
+              "$ref": "53"
+            },
+            "motor": {
+              "$id": "55",
+              "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+              "jointLinks": {
+                "$id": "56",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$ref": "54"
+                  }
+                ]
+              },
+              "serializedMotorHardwareConfiguration": {
+                "$id": "57",
+                "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+                "I2CAddress": 64,
+                "Pin": 7,
+                "MinPwm": 1000,
+                "MaxPwm": 2000,
+                "MaxSpeed": 3000
+              },
+              "hornRange": 90.0,
+              "hornOffset": 0.0,
+              "hornClockwise": false,
+              "boltCalibrationOffset": null,
+              "liveOnLaunch": true,
+              "postProcessorsAsLeader": {
+                "$id": "58",
+                "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "59",
+                    "$type": "EffectorRangeOffsetPostProcessor, Assembly-CSharp",
+                    "rangeOffsetScaler": 1.0,
+                    "inverted": false,
+                    "Follower": {
+                      "$id": "60",
+                      "$type": "TonicNorth.Bottango.Articulation.Servo, Assembly-CSharp",
+                      "jointLinks": {
+                        "$id": "61",
+                        "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+                        "$values": []
+                      },
+                      "serializedMotorHardwareConfiguration": {
+                        "$id": "62",
+                        "$type": "SerializedI2CServoHardwareConfiguration, Assembly-CSharp",
+                        "I2CAddress": 64,
+                        "Pin": 8,
+                        "MinPwm": 1000,
+                        "MaxPwm": 2000,
+                        "MaxSpeed": 3000
+                      },
+                      "hornRange": 90.0,
+                      "hornOffset": 0.0,
+                      "hornClockwise": true,
+                      "boltCalibrationOffset": null,
+                      "liveOnLaunch": false,
+                      "postProcessorsAsLeader": {
+                        "$id": "63",
+                        "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+                        "$values": []
+                      },
+                      "postProcessorAsFollower": {
+                        "$ref": "59"
+                      },
+                      "pivot": "Center",
+                      "customPivot": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "HomePWM": 1500,
+                      "JogSpeedMultiplier": 0.5,
+                      "HornRange": 90.0,
+                      "HomeLocalRotation": {
+                        "w": -0.9979959,
+                        "x": 0.0632780045,
+                        "y": -6.111891E-08,
+                        "z": 6.611712E-08,
+                        "eulerAngles": {
+                          "x": 352.744019,
+                          "y": 7.5293965E-06,
+                          "z": -8.06908E-06
+                        }
+                      },
+                      "HomeLocalPosition": {
+                        "x": 0.188831478,
+                        "y": -0.108289048,
+                        "z": -0.0835871845
+                      },
+                      "Name": "cuello a",
+                      "Visible": true,
+                      "Size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "Color": {
+                        "a": 1.0,
+                        "r": 1.0,
+                        "g": 0.329411775,
+                        "b": 0.0
+                      },
+                      "ModelInternalPath": null,
+                      "Locked": false
+                    },
+                    "Leader": {
+                      "$ref": "55"
+                    },
+                    "Executable": true
+                  }
+                ]
+              },
+              "postProcessorAsFollower": null,
+              "pivot": "Center",
+              "customPivot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "HomePWM": 1500,
+              "JogSpeedMultiplier": 0.5,
+              "HornRange": 90.0,
+              "HomeLocalRotation": {
+                "w": -0.9979959,
+                "x": 0.0632780045,
+                "y": -6.665092E-08,
+                "z": -2.11304876E-08,
+                "eulerAngles": {
+                  "x": 352.744019,
+                  "y": 7.52940559E-06,
+                  "z": 1.94883546E-06
+                }
+              },
+              "HomeLocalPosition": {
+                "x": -0.191328824,
+                "y": -0.106387995,
+                "z": -0.07319651
+              },
+              "Name": "cuello b",
+              "Visible": true,
+              "Size": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Color": {
+                "a": 1.0,
+                "r": 1.0,
+                "g": 0.329411775,
+                "b": 0.0
+              },
+              "ModelInternalPath": null,
+              "Locked": false
+            },
+            "conflictResolutionStrategy": "UsePrimaryJointHome"
+          },
+          "associatedNode": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "offsetMin": -45.0,
+          "offsetMax": 45.0,
+          "HomeLocalRotation": {
+            "w": -0.7504339,
+            "x": 0.6609455,
+            "y": -3.53432483E-09,
+            "z": -8.99692338E-08,
+            "eulerAngles": {
+              "x": 277.255951,
+              "y": -5.15448919E-05,
+              "z": 5.91365533E-05
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.07593024,
+            "y": 5.278246,
+            "z": -4.72341355E-07
+          },
+          "Name": "Joint",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 0.56078434,
+            "g": 0.149019614,
+            "b": 0.9490196
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 8,
+        "children": {
+          "$id": "64",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": [
+            {
+              "$id": "65",
+              "$type": "PartHolder, Assembly-CSharp",
+              "part": {
+                "$ref": "60"
+              },
+              "parent": {
+                "$ref": "53"
+              },
+              "siblingIndex": 0,
+              "children": {
+                "$id": "66",
+                "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "67",
+              "$type": "PartHolder, Assembly-CSharp",
+              "part": {
+                "$ref": "55"
+              },
+              "parent": {
+                "$ref": "53"
+              },
+              "siblingIndex": 1,
+              "children": {
+                "$id": "68",
+                "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$id": "69",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "70",
+          "$type": "ReferenceMedia, Assembly-CSharp",
+          "targetMediaEffector": null,
+          "displayType": 2,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HomeLocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "eulerAngles": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.0,
+            "y": 4.94657,
+            "z": 1.29735076
+          },
+          "Name": "freddy",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 0.0,
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 9,
+        "children": {
+          "$id": "71",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "72",
+        "$type": "PartHolder, Assembly-CSharp",
+        "part": {
+          "$id": "73",
+          "$type": "Stepper, Assembly-CSharp",
+          "validAutoSync": "None",
+          "jointLinks": {
+            "$id": "74",
+            "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.MotorJointLink, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "serializedMotorHardwareConfiguration": {
+            "$id": "75",
+            "$type": "SerializedStepDirStepperHardwareConfiguration, Assembly-CSharp",
+            "StepPin": 0,
+            "DirPin": 1,
+            "ClockwiseIsLow": true,
+            "MaxCounterSteps": -1000,
+            "MaxClockSteps": 1000,
+            "MaxSpeed": 400
+          },
+          "hornRange": 360.0,
+          "hornOffset": 0.0,
+          "hornClockwise": false,
+          "boltCalibrationOffset": null,
+          "liveOnLaunch": true,
+          "postProcessorsAsLeader": {
+            "$id": "76",
+            "$type": "System.Collections.Generic.List`1[[IMovementPostProcessor, Assembly-CSharp]], mscorlib",
+            "$values": []
+          },
+          "postProcessorAsFollower": null,
+          "pivot": "Center",
+          "customPivot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "JogSpeedMultiplier": 0.5,
+          "HornRange": 360.0,
+          "HomeLocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "eulerAngles": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "HomeLocalPosition": {
+            "x": 0.0,
+            "y": 4.06475925,
+            "z": 0.461172581
+          },
+          "Name": "Stepper Motor",
+          "Visible": true,
+          "Size": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "Color": {
+            "a": 1.0,
+            "r": 1.0,
+            "g": 0.329411775,
+            "b": 0.0
+          },
+          "ModelInternalPath": null,
+          "Locked": false
+        },
+        "parent": null,
+        "siblingIndex": 10,
+        "children": {
+          "$id": "77",
+          "$type": "System.Collections.Generic.List`1[[PartHolder, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      }
+    ]
+  },
+  "mediaEffectors": {
+    "$id": "78",
+    "$type": "System.Collections.Generic.List`1[[BotMediaEffector, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$id": "79",
+        "$type": "BotVideoEffector, Assembly-CSharp",
+        "videoAudioExportMediaPath": null,
+        "playOnHardware": true,
+        "liveOnLaunch": false,
+        "hardwarePin": null,
+        "fireIsHigh": true,
+        "mediaPath": {
+          "$id": "80",
+          "$type": "MediaPath, Assembly-CSharp",
+          "path": "C:\\Users\\SALVADOR\\Downloads\\videoplayback.mp4",
+          "local": false,
+          "assetBundlePath": null,
+          "IsStreamingAsset": false
+        },
+        "userSetIdentifier": "myMedia",
+        "HardwarePin": null
+      }
+    ]
+  },
+  "animationClips": {
+    "$id": "81",
+    "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotAnimationClip, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$id": "82",
+        "$type": "TonicNorth.Bottango.Articulation.BotAnimationClip, Assembly-CSharp",
+        "FPS": 30,
+        "durationInFrames": 270600,
+        "name": "New Animation",
+        "loop": false,
+        "workAreaStart": 0,
+        "workAreaEnd": 270600,
+        "recordAreaStart": 9969,
+        "recordAreaEnd": 9970,
+        "animationTracks": {
+          "$id": "83",
+          "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotAnimationTrack, Assembly-CSharp]], mscorlib",
+          "$values": [
+            {
+              "$id": "84",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "23"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "85",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "86",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "87",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "41"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "88",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "89",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "90",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "11"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "91",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "92",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "93",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "53"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "94",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "95",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "96",
+              "$type": "TonicNorth.Bottango.Articulation.MediaAnimationTrack, Assembly-CSharp",
+              "animatable": {
+                "$ref": "79"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "97",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "98",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "99",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "60"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "100",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "101",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "102",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "35"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "103",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "104",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "105",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "29"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "106",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "107",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "108",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "73"
+              },
+              "parentClip": {
+                "$ref": "82"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "109",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "110",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "111",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "108"
+                    },
+                    "Movement": 1.0,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "112",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "113",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "markers": {
+          "$id": "114",
+          "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+          "$values": []
+        },
+        "DurationInMS": 9020000
+      },
+      {
+        "$id": "115",
+        "$type": "TonicNorth.Bottango.Articulation.BotAnimationClip, Assembly-CSharp",
+        "FPS": 30,
+        "durationInFrames": 180,
+        "name": "New Animation",
+        "loop": false,
+        "workAreaStart": 7,
+        "workAreaEnd": 169,
+        "recordAreaStart": 7,
+        "recordAreaEnd": 169,
+        "animationTracks": {
+          "$id": "116",
+          "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotAnimationTrack, Assembly-CSharp]], mscorlib",
+          "$values": [
+            {
+              "$id": "117",
+              "$type": "TonicNorth.Bottango.Articulation.MediaAnimationTrack, Assembly-CSharp",
+              "animatable": {
+                "$ref": "79"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "118",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "119",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "120",
+                    "$type": "MediaKeyframe, Assembly-CSharp",
+                    "length": 20700000,
+                    "animationTrack": {
+                      "$ref": "117"
+                    },
+                    "Frame": 0
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "121",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": null,
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "122",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "Servo Motor",
+              "keyframes": {
+                "$id": "123",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "124",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "41"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "125",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "126",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "127",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.107624568,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "128",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "129",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 24,
+                      "Y": 0.0
+                    },
+                    "Frame": 26
+                  },
+                  {
+                    "$id": "130",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6050674,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "131",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "132",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": 0.0
+                    },
+                    "Frame": 29
+                  },
+                  {
+                    "$id": "133",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.09832657,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "134",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0290074758
+                    },
+                    "OutTangent": {
+                      "$id": "135",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": -0.02197536
+                    },
+                    "Frame": 33
+                  },
+                  {
+                    "$id": "136",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6097164,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "137",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0178704
+                    },
+                    "OutTangent": {
+                      "$id": "138",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 58,
+                      "Y": -0.0315439627
+                    },
+                    "Frame": 36
+                  },
+                  {
+                    "$id": "139",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6050675,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "140",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -58,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "141",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 43
+                  },
+                  {
+                    "$id": "142",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.126220554,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "143",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.00615593046
+                    },
+                    "OutTangent": {
+                      "$id": "144",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.008187387
+                    },
+                    "Frame": 46
+                  },
+                  {
+                    "$id": "145",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6190144,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "146",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0107616773
+                    },
+                    "OutTangent": {
+                      "$id": "147",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.0108432053
+                    },
+                    "Frame": 50
+                  },
+                  {
+                    "$id": "148",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.130869552,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "149",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "150",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 54
+                  },
+                  {
+                    "$id": "151",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.62831223,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "152",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "153",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": 0.0
+                    },
+                    "Frame": 57
+                  },
+                  {
+                    "$id": "154",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.121571556,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "155",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0355637968
+                    },
+                    "OutTangent": {
+                      "$id": "156",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.03583322
+                    },
+                    "Frame": 61
+                  },
+                  {
+                    "$id": "157",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.64225924,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "158",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0212631635
+                    },
+                    "OutTangent": {
+                      "$id": "159",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": -0.016108457
+                    },
+                    "Frame": 65
+                  },
+                  {
+                    "$id": "160",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.130869552,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "161",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "162",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 68
+                  },
+                  {
+                    "$id": "163",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.628312349,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "164",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "165",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 71
+                  },
+                  {
+                    "$id": "166",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.149465546,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "167",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.00615593046
+                    },
+                    "OutTangent": {
+                      "$id": "168",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 41,
+                      "Y": -0.0102804042
+                    },
+                    "Frame": 74
+                  },
+                  {
+                    "$id": "169",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6329614,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "170",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -41,
+                      "Y": 0.0178598575
+                    },
+                    "OutTangent": {
+                      "$id": "171",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": -0.010890157
+                    },
+                    "Frame": 79
+                  },
+                  {
+                    "$id": "172",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.144816548,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "173",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "174",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 82
+                  },
+                  {
+                    "$id": "175",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6422593,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "176",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "177",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": 0.0
+                    },
+                    "Frame": 85
+                  },
+                  {
+                    "$id": "178",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.135518551,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "179",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0348154977
+                    },
+                    "OutTangent": {
+                      "$id": "180",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 116,
+                      "Y": -0.123173013
+                    },
+                    "Frame": 89
+                  },
+                  {
+                    "$id": "181",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.637610435,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "182",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -116,
+                      "Y": 0.07427149
+                    },
+                    "OutTangent": {
+                      "$id": "183",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 50,
+                      "Y": -0.0320135728
+                    },
+                    "Frame": 103
+                  },
+                  {
+                    "$id": "184",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.623663545,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "185",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -50,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "186",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 109
+                  },
+                  {
+                    "$id": "187",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.144816548,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "188",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.00615593046
+                    },
+                    "OutTangent": {
+                      "$id": "189",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.008187387
+                    },
+                    "Frame": 112
+                  },
+                  {
+                    "$id": "190",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.637610435,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "191",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0128986724
+                    },
+                    "OutTangent": {
+                      "$id": "192",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.0129963895
+                    },
+                    "Frame": 116
+                  },
+                  {
+                    "$id": "193",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.149465531,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "194",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "195",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 120
+                  },
+                  {
+                    "$id": "196",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6469083,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "197",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "198",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": 0.0
+                    },
+                    "Frame": 123
+                  },
+                  {
+                    "$id": "199",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.140167534,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "200",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.04262586
+                    },
+                    "OutTangent": {
+                      "$id": "201",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.0429487824
+                    },
+                    "Frame": 127
+                  },
+                  {
+                    "$id": "202",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6608553,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "203",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0254854877
+                    },
+                    "OutTangent": {
+                      "$id": "204",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": -0.0193071868
+                    },
+                    "Frame": 131
+                  },
+                  {
+                    "$id": "205",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.149465531,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "206",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "207",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 134
+                  },
+                  {
+                    "$id": "208",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.6469084,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "209",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "210",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 137
+                  },
+                  {
+                    "$id": "211",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.168061525,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "212",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.00615593046
+                    },
+                    "OutTangent": {
+                      "$id": "213",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 41,
+                      "Y": -0.0102804042
+                    },
+                    "Frame": 140
+                  },
+                  {
+                    "$id": "214",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.651557446,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "215",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -41,
+                      "Y": 0.0234405268
+                    },
+                    "OutTangent": {
+                      "$id": "216",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.0190096963
+                    },
+                    "Frame": 145
+                  },
+                  {
+                    "$id": "217",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.172710538,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "218",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "219",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 25,
+                      "Y": 0.0
+                    },
+                    "Frame": 149
+                  },
+                  {
+                    "$id": "220",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.670153141,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "221",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -25,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "222",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": 0.0
+                    },
+                    "Frame": 152
+                  },
+                  {
+                    "$id": "223",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.163412541,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "224",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0459674373
+                    },
+                    "OutTangent": {
+                      "$id": "225",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 33,
+                      "Y": -0.0463156737
+                    },
+                    "Frame": 156
+                  },
+                  {
+                    "$id": "226",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.684100151,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "227",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -33,
+                      "Y": 0.0292279236
+                    },
+                    "OutTangent": {
+                      "$id": "228",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 16,
+                      "Y": -0.0148353856
+                    },
+                    "Frame": 160
+                  },
+                  {
+                    "$id": "229",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "124"
+                    },
+                    "Movement": 0.163412541,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "230",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -16,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "231",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 8,
+                      "Y": 0.0
+                    },
+                    "Frame": 162
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "232",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "53"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "233",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "234",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "235",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.250683844,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "236",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "237",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 108,
+                      "Y": 0.0
+                    },
+                    "Frame": 32
+                  },
+                  {
+                    "$id": "238",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.9885579,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "239",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -108,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "240",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 158,
+                      "Y": 0.0
+                    },
+                    "Frame": 45
+                  },
+                  {
+                    "$id": "241",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.214742258,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "242",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -158,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "243",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 291,
+                      "Y": 0.0
+                    },
+                    "Frame": 64
+                  },
+                  {
+                    "$id": "244",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.7687616,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "245",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -291,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "246",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 266,
+                      "Y": 0.0
+                    },
+                    "Frame": 99
+                  },
+                  {
+                    "$id": "247",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.2825769,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "248",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -266,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "249",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 158,
+                      "Y": 0.0
+                    },
+                    "Frame": 131
+                  },
+                  {
+                    "$id": "250",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.67026484,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "251",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -158,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "252",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 100,
+                      "Y": 0.0
+                    },
+                    "Frame": 150
+                  },
+                  {
+                    "$id": "253",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "232"
+                    },
+                    "Movement": 0.248216718,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "254",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -100,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "255",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 162
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "256",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "29"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "257",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "258",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "259",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "256"
+                    },
+                    "Movement": 0.1477955,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "260",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "261",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 150,
+                      "Y": 0.0
+                    },
+                    "Frame": 23
+                  },
+                  {
+                    "$id": "262",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "256"
+                    },
+                    "Movement": 0.8226437,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "263",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -150,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "264",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 300,
+                      "Y": 0.0
+                    },
+                    "Frame": 41
+                  },
+                  {
+                    "$id": "265",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "256"
+                    },
+                    "Movement": 0.3165742,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "266",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -300,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "267",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 266,
+                      "Y": 0.0
+                    },
+                    "Frame": 77
+                  },
+                  {
+                    "$id": "268",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "256"
+                    },
+                    "Movement": 0.8439155,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "269",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -266,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "270",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 308,
+                      "Y": 0.0
+                    },
+                    "Frame": 109
+                  },
+                  {
+                    "$id": "271",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "256"
+                    },
+                    "Movement": 0.0,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "272",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -308,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "273",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 133,
+                      "Y": 0.0
+                    },
+                    "Frame": 146
+                  },
+                  {
+                    "$id": "274",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "256"
+                    },
+                    "Movement": 0.445643216,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "275",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -133,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "276",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 162
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "277",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "35"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "278",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "279",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$id": "280",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "23"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "281",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "282",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "283",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "280"
+                    },
+                    "Movement": 0.8010762,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "284",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "285",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 283,
+                      "Y": 0.0
+                    },
+                    "Frame": 40
+                  },
+                  {
+                    "$id": "286",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "280"
+                    },
+                    "Movement": 0.3285538,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "287",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -283,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "288",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 575,
+                      "Y": 0.0
+                    },
+                    "Frame": 74
+                  },
+                  {
+                    "$id": "289",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "280"
+                    },
+                    "Movement": 0.470728725,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "290",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -575,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "291",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 150,
+                      "Y": 0.0
+                    },
+                    "Frame": 143
+                  },
+                  {
+                    "$id": "292",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "280"
+                    },
+                    "Movement": 0.5961769,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "293",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -150,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "294",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 161
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "295",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "11"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "296",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "297",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "298",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "295"
+                    },
+                    "Movement": 0.303161144,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "299",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "300",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 400,
+                      "Y": 0.0
+                    },
+                    "Frame": 40
+                  },
+                  {
+                    "$id": "301",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "295"
+                    },
+                    "Movement": 0.513421237,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "302",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -400,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "303",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 624,
+                      "Y": 0.0
+                    },
+                    "Frame": 88
+                  },
+                  {
+                    "$id": "304",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "295"
+                    },
+                    "Movement": 0.3168295,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "305",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -624,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "306",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 163
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "307",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "5"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "308",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "309",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "310",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "307"
+                    },
+                    "Movement": 0.340021044,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "311",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "312",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 325,
+                      "Y": 0.0
+                    },
+                    "Frame": 32
+                  },
+                  {
+                    "$id": "313",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "307"
+                    },
+                    "Movement": 0.65943867,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "314",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -325,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "315",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 433,
+                      "Y": 0.0
+                    },
+                    "Frame": 71
+                  },
+                  {
+                    "$id": "316",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "307"
+                    },
+                    "Movement": 0.499459922,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "317",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -433,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "318",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 333,
+                      "Y": 0.0
+                    },
+                    "Frame": 123
+                  },
+                  {
+                    "$id": "319",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "307"
+                    },
+                    "Movement": 0.386564463,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "320",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -333,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "321",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 163
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "322",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "17"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "323",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "324",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "325",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "322"
+                    },
+                    "Movement": 0.723544538,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "326",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "327",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 250,
+                      "Y": 0.0
+                    },
+                    "Frame": 35
+                  },
+                  {
+                    "$id": "328",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "322"
+                    },
+                    "Movement": 0.569192469,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "329",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -250,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "330",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 250,
+                      "Y": 0.0
+                    },
+                    "Frame": 65
+                  },
+                  {
+                    "$id": "331",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "322"
+                    },
+                    "Movement": 0.32968086,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "332",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -250,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "333",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 183,
+                      "Y": 0.0
+                    },
+                    "Frame": 95
+                  },
+                  {
+                    "$id": "334",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "322"
+                    },
+                    "Movement": 0.6011274,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "335",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -183,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "336",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 233,
+                      "Y": 0.0
+                    },
+                    "Frame": 117
+                  },
+                  {
+                    "$id": "337",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "322"
+                    },
+                    "Movement": 0.5053229,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "338",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -233,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "339",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 141,
+                      "Y": 0.0
+                    },
+                    "Frame": 145
+                  },
+                  {
+                    "$id": "340",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "322"
+                    },
+                    "Movement": 0.787414,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "341",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -141,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "342",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 1000,
+                      "Y": 0.0
+                    },
+                    "Frame": 162
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "343",
+              "$type": "TonicNorth.Bottango.Articulation.MovementAnimationTrack, Assembly-CSharp",
+              "unbound": false,
+              "parentDimensionalTrack": null,
+              "animatable": {
+                "$ref": "73"
+              },
+              "parentClip": {
+                "$ref": "115"
+              },
+              "ungraphableOverried": false,
+              "markers": {
+                "$id": "344",
+                "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+                "$values": []
+              },
+              "cachedAnimatableName": "",
+              "keyframes": {
+                "$id": "345",
+                "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotKeyframe, Assembly-CSharp]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "346",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "343"
+                    },
+                    "Movement": 0.5065402,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "347",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -1000,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "348",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 291,
+                      "Y": 0.0
+                    },
+                    "Frame": 0
+                  },
+                  {
+                    "$id": "349",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "343"
+                    },
+                    "Movement": 0.0,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "350",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -291,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "351",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 125,
+                      "Y": 0.0
+                    },
+                    "Frame": 35
+                  },
+                  {
+                    "$id": "352",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "343"
+                    },
+                    "Movement": 1.0,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "353",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -125,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "354",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 101,
+                      "Y": 0.0
+                    },
+                    "Frame": 50
+                  },
+                  {
+                    "$id": "355",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "343"
+                    },
+                    "Movement": 0.624877334,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "356",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -139,
+                      "Y": 0.08872497
+                    },
+                    "OutTangent": {
+                      "$id": "357",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 412,
+                      "Y": -0.263423681
+                    },
+                    "Frame": 61
+                  },
+                  {
+                    "$id": "358",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "343"
+                    },
+                    "Movement": 0.06578358,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "359",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -299,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "360",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 533,
+                      "Y": 0.0
+                    },
+                    "Frame": 98
+                  },
+                  {
+                    "$id": "361",
+                    "$type": "TonicNorth.Bottango.Articulation.MovementKeyframe, Assembly-CSharp",
+                    "unbound": false,
+                    "animationTrack": {
+                      "$ref": "343"
+                    },
+                    "Movement": 0.939795256,
+                    "HandleType": "AutoSmooth",
+                    "InTangent": {
+                      "$id": "362",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": -533,
+                      "Y": 0.0
+                    },
+                    "OutTangent": {
+                      "$id": "363",
+                      "$type": "BotTangoSerial.Point, Assembly-CSharp",
+                      "X": 16,
+                      "Y": 0.0
+                    },
+                    "Frame": 162
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "markers": {
+          "$id": "364",
+          "$type": "System.Collections.Generic.List`1[[AnimationMarker, Assembly-CSharp]], mscorlib",
+          "$values": []
+        },
+        "DurationInMS": 6000
+      }
+    ]
+  },
+  "projectDefaults": {
+    "$id": "365",
+    "$type": "ProjectDefaults+Defaults, Assembly-CSharp",
+    "colorPresets": {
+      "$id": "366",
+      "$type": "System.Collections.Generic.List`1[[UnityEngine.Color, UnityEngine.CoreModule]], mscorlib",
+      "$values": []
+    },
+    "liveOnLaunch": true,
+    "lastExportedConfig": null,
+    "apiPort": 59224,
+    "ltcSettings": {
+      "$id": "367",
+      "$type": "LTCSettings, Assembly-CSharp",
+      "lastDeviceName": "Micrófono (Razer Seiren Mini)",
+      "frameRate": "FPS_30_00",
+      "channel": 0,
+      "freewheel": 200,
+      "maxDrift": 100,
+      "offset": 0,
+      "jogTime": 2000,
+      "jogWiggle": 500
+    },
+    "defaultClips": {
+      "$id": "368",
+      "$type": "System.Collections.Generic.List`1[[TonicNorth.Bottango.Articulation.BotAnimationClip, Assembly-CSharp]], mscorlib",
+      "$values": []
+    },
+    "useLegacyPoseMixerEvaluation": false,
+    "projectType": "Studio",
+    "BoltKey": "",
+    "BoltProjectRev": "1",
+    "boltStartCameraPos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "boltStartCameraPivot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "serialControllerMetaDatas": {
+    "$id": "369",
+    "$type": "System.Collections.Generic.List`1[[SerialControllerMetaData, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$id": "370",
+        "$type": "SerialControllerMetaData, Assembly-CSharp",
+        "Name": "mega",
+        "communicationTypeMetaData": {
+          "$id": "371",
+          "$type": "SerialCommunicationType_USBSerial_MetaData, Assembly-CSharp",
+          "sharedSerialAPIMetadata": {
+            "$id": "372",
+            "$type": "SharedBottangoSerialAPIMetaData, Assembly-CSharp",
+            "driverSignalPrecision": "Default",
+            "compressedIntMax": 8192,
+            "targetInstantHz": 30,
+            "MaxCurveLeadTimeMS": 1000,
+            "curveStrategy": "Precached",
+            "offsetBySyncTime": true,
+            "allowInstant": true,
+            "includeJITTimeStamps": false,
+            "lastRecievedMACAddress": null,
+            "audioKeyframeType": "TriggerEvent",
+            "signalRange": "Default_16",
+            "maxMessageLength": 248,
+            "allowSyncCurves": false,
+            "curvesBufferSize": 8,
+            "namedBoard": "",
+            "namedBoardVersion": "",
+            "wasRelayBridge": false,
+            "stopButtonBehavior": "Unsupported"
+          },
+          "portConnectionMetaData": {
+            "$id": "373",
+            "$type": "USBPortConnectionMetaData, Assembly-CSharp",
+            "SearchQuery": "",
+            "SearchExactPath": "COM9",
+            "SearchUID": null,
+            "portStrategy": "Select",
+            "BaudRate": 115200,
+            "searchNamedBoards": {
+              "$id": "374",
+              "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+              "$values": []
+            }
+          }
+        },
+        "LiveOnLaunch": true,
+        "LastSuccessfulPort": "COM9",
+        "Effectors": {
+          "$id": "375",
+          "$type": "System.Collections.Generic.List`1[[IHardwareEffector, Assembly-CSharp]], mscorlib",
+          "$values": [
+            {
+              "$ref": "5"
+            },
+            {
+              "$ref": "11"
+            },
+            {
+              "$ref": "17"
+            },
+            {
+              "$ref": "23"
+            },
+            {
+              "$ref": "29"
+            },
+            {
+              "$ref": "35"
+            },
+            {
+              "$ref": "41"
+            },
+            {
+              "$ref": "47"
+            },
+            {
+              "$ref": "60"
+            },
+            {
+              "$ref": "55"
+            },
+            {
+              "$ref": "79"
+            }
+          ]
+        }
+      },
+      {
+        "$id": "376",
+        "$type": "SerialControllerMetaData, Assembly-CSharp",
+        "Name": "espbrazoz",
+        "communicationTypeMetaData": {
+          "$id": "377",
+          "$type": "SerialCommunicationType_USBSerial_MetaData, Assembly-CSharp",
+          "sharedSerialAPIMetadata": {
+            "$id": "378",
+            "$type": "SharedBottangoSerialAPIMetaData, Assembly-CSharp",
+            "driverSignalPrecision": "Default",
+            "compressedIntMax": 8192,
+            "targetInstantHz": 30,
+            "MaxCurveLeadTimeMS": 1000,
+            "curveStrategy": "Precached",
+            "offsetBySyncTime": true,
+            "allowInstant": true,
+            "includeJITTimeStamps": false,
+            "lastRecievedMACAddress": null,
+            "audioKeyframeType": "TriggerEvent",
+            "signalRange": "Int_32",
+            "maxMessageLength": 248,
+            "allowSyncCurves": false,
+            "curvesBufferSize": 8,
+            "namedBoard": "",
+            "namedBoardVersion": "",
+            "wasRelayBridge": false,
+            "stopButtonBehavior": "Unsupported"
+          },
+          "portConnectionMetaData": {
+            "$id": "379",
+            "$type": "USBPortConnectionMetaData, Assembly-CSharp",
+            "SearchQuery": "",
+            "SearchExactPath": "COM6",
+            "SearchUID": null,
+            "portStrategy": "Select",
+            "BaudRate": 115200,
+            "searchNamedBoards": {
+              "$id": "380",
+              "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+              "$values": []
+            }
+          }
+        },
+        "LiveOnLaunch": true,
+        "LastSuccessfulPort": "COM6",
+        "Effectors": {
+          "$id": "381",
+          "$type": "System.Collections.Generic.List`1[[IHardwareEffector, Assembly-CSharp]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$id": "382",
+        "$type": "SerialControllerMetaData, Assembly-CSharp",
+        "Name": "stepper",
+        "communicationTypeMetaData": {
+          "$id": "383",
+          "$type": "SerialCommunicationType_USBSerial_MetaData, Assembly-CSharp",
+          "sharedSerialAPIMetadata": {
+            "$id": "384",
+            "$type": "SharedBottangoSerialAPIMetaData, Assembly-CSharp",
+            "driverSignalPrecision": "Default",
+            "compressedIntMax": 8192,
+            "targetInstantHz": 30,
+            "MaxCurveLeadTimeMS": 1000,
+            "curveStrategy": "Precached",
+            "offsetBySyncTime": true,
+            "allowInstant": true,
+            "includeJITTimeStamps": false,
+            "lastRecievedMACAddress": null,
+            "audioKeyframeType": "TriggerEvent",
+            "signalRange": "Default_16",
+            "maxMessageLength": 100,
+            "allowSyncCurves": false,
+            "curvesBufferSize": 3,
+            "namedBoard": "",
+            "namedBoardVersion": "",
+            "wasRelayBridge": false,
+            "stopButtonBehavior": "Unsupported"
+          },
+          "portConnectionMetaData": {
+            "$id": "385",
+            "$type": "USBPortConnectionMetaData, Assembly-CSharp",
+            "SearchQuery": "",
+            "SearchExactPath": "COM8",
+            "SearchUID": null,
+            "portStrategy": "Select",
+            "BaudRate": 115200,
+            "searchNamedBoards": {
+              "$id": "386",
+              "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+              "$values": []
+            }
+          }
+        },
+        "LiveOnLaunch": true,
+        "LastSuccessfulPort": "COM8",
+        "Effectors": {
+          "$id": "387",
+          "$type": "System.Collections.Generic.List`1[[IHardwareEffector, Assembly-CSharp]], mscorlib",
+          "$values": [
+            {
+              "$ref": "73"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "controlSchemes": {
+    "$id": "388",
+    "$type": "System.Collections.Generic.List`1[[ControlScheme, Assembly-CSharp]], mscorlib",
+    "$values": []
+  }
+}

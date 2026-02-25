@@ -1,10 +1,4 @@
 # glamrock-freddy
-This is my project to apply to MIT. It's not finished yet; I'll keep improving it over time and will upload any updates I make.
-
-The project uses Bottango to function. (https://www.bottango.com)
-
-The project is constantly being improved; I will upload every update I make.
-
 The project uses some existing files from the internet; here is a direct quote.
 
 Autor: gabgra11
@@ -31,3 +25,14 @@ The model was adapted to fit the animatronic; the eyes have a space for an OV564
 Fuente:
 https://www.printables.com/model/1435865-46mm-animatronic-single-eye-four-servo-design
 
+This is my project to apply to MIT. It's not finished yet; I'll keep improving it over time and will upload any updates I make.
+
+The project uses Bottango to function. (https://www.bottango.com)
+
+The project is constantly being improved; I will upload every update I make.
+
+Here you can see videos of the robot in operation
+
+https://www.youtube.com/watch?v=ANeyHq2PXxs
+
+https://www.youtube.com/watch?v=w9MqOOe3WEY

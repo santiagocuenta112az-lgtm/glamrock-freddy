@@ -36,3 +36,6 @@ Here you can see videos of the robot in operation
 https://www.youtube.com/watch?v=ANeyHq2PXxs
 
 https://www.youtube.com/watch?v=w9MqOOe3WEY
+
+<img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
+

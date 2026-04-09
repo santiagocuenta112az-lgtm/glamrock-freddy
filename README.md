@@ -39,6 +39,17 @@ https://www.youtube.com/watch?v=w9MqOOe3WEY
 
 <img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
 
+![IMG_4566](https://github.com/user-attachments/assets/603063b6-5f75-4e10-bebd-67cc3df135cb)
+![IMG_4565](https://github.com/user-attachments/assets/22c6831f-e7fa-4dc3-83ca-a90868ded514)
+![IMG_4564](https://github.com/user-attachments/assets/7a8a0c0a-df1e-4b8c-8787-044a38067983)
+![IMG_4563](https://github.com/user-attachments/assets/064e7eda-4b51-4bc0-9f68-b217585c09f9)
+![IMG_4562](https://github.com/user-attachments/assets/d722f5f3-fd29-4e1d-86e1-bfcabe39f00b)
+![IMG_4561](https://github.com/user-attachments/assets/7bc1b80f-b608-42fc-8470-217fce7e4c4e)
+![IMG_4560](https://github.com/user-attachments/assets/909b7ccc-93e9-4417-8648-5ca8d62b81be)
+![IMG_4569](https://github.com/user-attachments/assets/84c1ccf1-ffe8-47ee-8cab-7dbd3531a062)
+![IMG_4568](https://github.com/user-attachments/assets/6a6c5472-4eb6-4933-8691-180d4393f35b)
+![IMG_4567](https://github.com/user-attachments/assets/25d9ff84-57d7-4899-9ed2-ceefb0c4ece4)
+
 more videos of the robot in this links
 
 https://www.youtube.com/watch?v=gD_GBXhQZGM

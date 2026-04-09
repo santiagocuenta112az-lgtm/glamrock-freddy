@@ -39,4 +39,8 @@ https://www.youtube.com/watch?v=w9MqOOe3WEY
 
 <img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
 
-more videos of the robot in the carpet of videos.
+more videos of the robot in this links
+
+https://www.youtube.com/watch?v=gD_GBXhQZGM
+
+https://www.youtube.com/watch?v=O6w7q3wO3Cw

@@ -39,6 +39,8 @@ https://www.youtube.com/watch?v=w9MqOOe3WEY
 
 <img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
 
+<img width="770" height="796" alt="Captura de pantalla 2026-04-10 235814" src="https://github.com/user-attachments/assets/6798406b-2f85-4916-824b-1927b36c236b" />
+
 ![IMG_4566](https://github.com/user-attachments/assets/603063b6-5f75-4e10-bebd-67cc3df135cb)
 ![IMG_4565](https://github.com/user-attachments/assets/22c6831f-e7fa-4dc3-83ca-a90868ded514)
 ![IMG_4564](https://github.com/user-attachments/assets/7a8a0c0a-df1e-4b8c-8787-044a38067983)

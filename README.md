@@ -37,6 +37,8 @@ https://www.youtube.com/watch?v=ANeyHq2PXxs
 
 https://www.youtube.com/watch?v=w9MqOOe3WEY
 
+<img width="889" height="858" alt="image" src="https://github.com/user-attachments/assets/d2fc7911-0a6d-4bfd-9576-a86860b92855" />
+
 <img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
 
 <img width="770" height="796" alt="Captura de pantalla 2026-04-10 235814" src="https://github.com/user-attachments/assets/6798406b-2f85-4916-824b-1927b36c236b" />

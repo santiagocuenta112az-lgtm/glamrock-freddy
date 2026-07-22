@@ -91,14 +91,6 @@ i use servomotors and planetary gearboxes to move mi arms and head
 
 The project uses Bottango to function. (https://www.bottango.com)
 
-The project is constantly being improved; I will upload every update I make.
-
-
-<img width="889" height="858" alt="image" src="https://github.com/user-attachments/assets/d2fc7911-0a6d-4bfd-9576-a86860b92855" />
-
-<img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
-
-<img width="770" height="796" alt="Captura de pantalla 2026-04-10 235814" src="https://github.com/user-attachments/assets/6798406b-2f85-4916-824b-1927b36c236b" />
 
 What's inside me?
 i use arduinos to control the servos and a raspberry pi 5 for the ai system
@@ -163,6 +155,15 @@ i have emore ideas for the robot, there´s most of them
 more detailed explanation of my build on hack club
 
 https://macondo.hackclub.com/projects/11732
+
+
+Here´s the bom and the wiring diagram
+
+<img width="889" height="858" alt="image" src="https://github.com/user-attachments/assets/d2fc7911-0a6d-4bfd-9576-a86860b92855" />
+
+<img width="1333" height="2000" alt="image" src="https://github.com/user-attachments/assets/b778e1eb-f973-4fad-b5c2-a299624ae1c7" />
+
+<img width="770" height="796" alt="Captura de pantalla 2026-04-10 235814" src="https://github.com/user-attachments/assets/6798406b-2f85-4916-824b-1927b36c236b" />
 
 
 (adaptation and translation of the texts form spanish to english are made by chatgpt, because my writing on english is not perfect and i need to made the readme understandable to all the people that see the project)

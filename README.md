@@ -1,5 +1,6 @@
 # glamrock-freddy
 hello superstar!!!!!
+
 https://github.com/user-attachments/assets/7831810f-c5db-41c6-a206-1c687ef8a5cc
 
 ¿who am i?

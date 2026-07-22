@@ -1,7 +1,7 @@
 # glamrock-freddy
 hello superstar!!!!!
 
-https://github.com/user-attachments/assets/7831810f-c5db-41c6-a206-1c687ef8a5cc
+<img width="360" height="202" alt="ax7fsq" src="https://github.com/user-attachments/assets/9581755a-cd88-4355-a5c2-69ae0a171763" />
 
 ¿who am i?
 

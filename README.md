@@ -1,4 +1,4 @@
-[stasis_budget_hyperlinks(Budget) (4).csv](https://github.com/user-attachments/files/30323735/stasis_budget_hyperlinks.Budget.4.csv)# glamrock-freddy
+# glamrock-freddy
 hello superstar!!!!!
 
 <img width="360" height="202" alt="ax7fsq" src="https://github.com/user-attachments/assets/9581755a-cd88-4355-a5c2-69ae0a171763" />

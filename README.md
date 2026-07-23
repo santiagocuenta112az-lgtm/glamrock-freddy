@@ -1,4 +1,4 @@
-# glamrock-freddy
+[stasis_budget_hyperlinks(Budget) (4).csv](https://github.com/user-attachments/files/30323735/stasis_budget_hyperlinks.Budget.4.csv)# glamrock-freddy
 hello superstar!!!!!
 
 <img width="360" height="202" alt="ax7fsq" src="https://github.com/user-attachments/assets/9581755a-cd88-4355-a5c2-69ae0a171763" />
@@ -165,6 +165,9 @@ Here´s the bom and the wiring diagram
 
 <img width="770" height="796" alt="Captura de pantalla 2026-04-10 235814" src="https://github.com/user-attachments/assets/6798406b-2f85-4916-824b-1927b36c236b" />
 
+bill of materials
+
+[stasis_budget_hyperlinks.ods](https://github.com/user-attachments/files/30323746/stasis_budget_hyperlinks.ods)
 
 (adaptation and translation of the texts form spanish to english are made by chatgpt, because my writing on english is not perfect and i need to made the readme understandable to all the people that see the project)
 

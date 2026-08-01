@@ -1,0 +1,23 @@
+name,description,total cost,quantity,link,distributor
+PETG-CR ,Filamento para carcasa,85.53,6,enlace de compra,digitalz3d
+ABS Landu ,Filamento para carcasa,64.15,5,enlace de compra,digitalz3d
+Rapid PETG Elegoo ,Filamento para carcasa,28.51,2,enlace de compra,digitalz3d
+PLA K3D ,Filamento para carcasa,28.51,2,enlace de compra,krear3d
+ABS Polymaker ,Filamento para carcasa,37.06,2,enlace de compra,krear3d
+PLA Carbon Fiber Polymaker 1kg,Filamento estructural,28.51,1,enlace de compra,krear3d
+Servo MG996R,Actuador,4.75,6,enlace de compra,aliexpres
+Servo MG90S,Actuador,2.28,10,enlace de compra,aliexpres
+Servo DS2340,Actuador,11.41,4,enlace de compra,aliexpres
+Servo RDS51160,Actuador alta potencia,28.51,2,enlace de compra,aliexpres
+Servo DS3235MG doble eje,Actuador doble eje,16.39,4,enlace de compra,aliexpres
+Arduino Mega,Controlador principal,15.97,2,enlace de compra,aliexpres
+Arduino Uno,Controlador,4.28,1,enlace de compra,aliexpres
+Arduino Nano,Controlador compacto,4.28,1,enlace de compra,aliexpres
+PCA9685,Driver PWM servos,3.42,5,enlace de compra,aliexpres
+Buck Converter 46V-5V 6A,Regulación de voltaje,19.96,1,enlace de compra,aliexpres
+Fuente 12V 5A,Alimentación,22.81,1,enlace de compra,aliexpres
+Fuente 24V 16.7A,Alimentación principal,37.06,1,enlace de compra,aliexpres
+Fuente 12V 10A,Alimentación secundaria,18.53,1,enlace de compra,aliexpres
+Extensión servo 15cm,Cableado,7.13,1,enlace de compra,temu
+Cables Dupont,Cableado,1.43,1,enlace de compra,aliexpres
+Extensión servo 1m,Cableado,11.4,1,enlace de compra,aliexpres
